@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    int firstBase = 0, secondBase = 0, thirdBase = 0, home = 0, atBat = 0, ball = 0, strike = 0, out = 0, runScore = 0, teamA = 0, teamB = 0;
-    int inningCount = 2, inningCheck = 2;
+    private int firstBase = 0, secondBase = 0, thirdBase = 0, home = 0, atBat = 0, ball = 0, strike = 0, out = 0, runScore = 0, teamA = 0, teamB = 0;
+    private int inningCount = 2, inningCheck = 2;
     String inningBanner, statusFirst = "", statusSecond = "", statusThird = "";
 
     //Button functionality
